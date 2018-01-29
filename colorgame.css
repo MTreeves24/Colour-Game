@@ -1,5 +1,8 @@
 body{
-    background-color: #232323;
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     margin: 0;
     font-family: "Montserrat", "Avenir";
 }
@@ -8,7 +11,9 @@ body{
     padding: 20px 0;
     text-align: center;
     color: white;
-    background-color: steelblue;
+background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     font-weight: normal;
     text-transform: uppercase;
@@ -21,7 +26,9 @@ body{
 
 .top-bar{
     text-align: center;
-    background-color: white;
+background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height:30px;
 }
 
